@@ -17,8 +17,8 @@ public class HiekkarantaSovellus extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        int leveys = 200;
-        int korkeus = 200;
+        int leveys = 300;
+        int korkeus = 300;
         Simulaatio simulaatio = new Simulaatio(leveys, korkeus);
 
         final ToggleGroup valintaryhma = new ToggleGroup();
